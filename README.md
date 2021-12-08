@@ -45,8 +45,13 @@ docker run --rm -it -p 127.0.0.1:8000:8000 diagrams-generator
 
 http://127.0.0.1:8000/docs
 
-## Code formatting
+## Code quality
 
+### Code formatting
 ```shell
-black file_or_directory
+black app (file or directory)
+```
+### Sort imports
+```shell
+isort app  (file or directory)
 ```
