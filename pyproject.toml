@@ -3,7 +3,7 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "pof_fast_api"
+name = "diagrams_generator"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
@@ -13,6 +13,7 @@ python = "^3.9"
 fastapi = "^0.68.1"
 gunicorn = "^20.1.0"
 uvicorn = "^0.15.0"
+diagrams = "^0.18.0"
 
 
 [tool.poetry.dev-dependencies]
