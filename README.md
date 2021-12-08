@@ -44,3 +44,9 @@ docker run --rm -it -p 127.0.0.1:8000:8000 diagrams-generator
 ## Project documentation
 
 http://127.0.0.1:8000/docs
+
+## Code formatting
+
+```shell
+black file_or_directory
+```
